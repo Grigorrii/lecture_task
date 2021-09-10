@@ -1,0 +1,12 @@
+#include <iostream> 
+using namespace std;
+
+int main()
+{
+	  int Terr, Var;
+	  cout << " Введите ваш номер в списке ";
+	  cin >> Terr;
+	  Var = Terr % 2 + 1;
+	  cout << "Ваш вариант " << Var << endl;
+	  return 0;
+}
